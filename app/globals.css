@@ -19,3 +19,13 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.scrollable-x-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth; /* Untuk scroll halus */
+}
+
+.scrollable-x-container::-webkit-scrollbar {
+  height: 0px; /* Tinggi scrollbar */
+}
